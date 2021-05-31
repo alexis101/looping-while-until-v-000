@@ -7,12 +7,3 @@ describe "#using_until" do
 	  expect{ using_until }.to output(looping_string).to_stdout
   end
 end
-
-
-def using_until ()
-  i = 6
-  until i == 10
-	puts "Wingardium Leviosa"
-	i += 1
-end
-end
